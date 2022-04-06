@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    margin-bottom: 16px;
+}
+header{
+
+}
+
+.logo {
+    text-align: center;
+    position: absolute;
+    width: 229px;
+    height: 68px;
+    left: 517px;
+    top: 42px;
+}
+.titulo {
+    position: absolute;
+    width: 334px;
+    height: 42px;
+    left: 464px;
+    top: 183px;
+}
+
+.texto_titulo {
+    display: flex;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #fff
+    ;
+}
+
+section {
+    display: block;
+    position: absolute;
+    top: 286px;
+    left: 203px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+.w3-container {
+    color: #9c9c9c;
+    font-size: 14px;
+    align-items: center;
+    margin: 16px;
+    border-radius: 3px;
+    display: block;
+}
+
+.imagem {
+    border-radius: 8px;
+}
+
+#adicionar {
+    width: 150px;
+}
+
+#nome_secao {
+    text-align: center;
+    font-size: 14px;
+    color: #9c9c9c;
+}
+
+.perfil {
+    color: #9c9c9c;
+    border-radius: 8px;
+    display: block;
+    position: absolute;
+    top: 582px;
+    left: 528px;
+    height: 50px;
+    width: 206px;
+    box-sizing: border-box;
+    border: 1.5px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+}
