@@ -1,10 +1,97 @@
+/* 
+O CSS segue a ordem do html, ou seja, do topo da pagina para o fim,
+indepente da prioridade dos seletores.
+*/
+
+@font-face {
+    font-family: IBMPlexSans-SemiBold;
+    src: url(./fonts/IBMPlexSans-SemiBold.ttf);
+  }
+
 body {
     background-color: black;
+    display: block;
 }
 
-.logo_KenzieFlix {
+.Box_logo {
+    display: flex;
     border: none;
-    max-width: 100%;
-    vertical-align: middle;
     align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 73px;
+}
+
+.texto_titulo {
+    color: white;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: IBMPlexSans-SemiBold;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 63px;
+}
+
+ul {
+    display: flex;
+    width: 700px;
+    height: 194px;
+}
+
+.container_perfil_box {
+    padding-right: 26px;
+    width: 160px;
+    height: 160px;
+}
+
+.avatar1, .avatar2, .avatar3, .adicionar_avatar {
+    border-radius: 8px;
+}
+
+#nome_secao {
+    color: #9c9c9c;
+    text-align: center;
+    list-style: none;
+    font-family: IBMPlexSans-SemiBold;
+
+}
+.box_gerencia_perfil {
+    background-color: #1e1e20;
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+}
+
+.adicionar_avatar {
+    padding: 46px;
+}
+
+.box_gerenciar_perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 116px;
+    margin-bottom: 103px;
+}
+
+.box_botao_gerenciar_perfil {
+    color: #9c9c9c;
+    border: 1.5px solid #9c9c9c;
+    border-radius: 8px;
+    width: 206px;
+    height: 54px;
+}
+
+.botao_gerenciar_perfil {
+    font-family: IBMPlexSans-SemiBold;
+    font-size: 16px;
+    text-align: center;
 }
