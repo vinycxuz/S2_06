@@ -27,7 +27,7 @@ Siga os passos abaixo para rodar localmente o KenzieFlix:
 2. **Acesse o Diretório:**
    - Navegue até o diretório recém-clonado:
      ```bash
-     cd kenzieflix
+     cd S2-06
      ```
 
 3. **Abra o Arquivo HTML:**
